@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>FCC TimeStamp MicroService</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class='container'>
+    <div class="page-header">
+      <h1>FCC TimeStamp MicroService</h1>
+    </div>
+    <div>
+      <h2>What is this?</h2>
+      <p>
+        This is a microservice API project for Free Code Camp that will accept either a natural date format
+        or a unix formatted date and return a json response with the date formatted
+        as both. If the input is neither it will return <code>null</code> values.
+      </p>
+      <h3>Usage:</h3>
+      <code>https://immense-brushlands-3354.herokuapp.com/January 10, 2015</code><br /><br />
+      <code>https://immense-brushlands-3354.herokuapp.com/1420848000</code>
+      <h3>Example Response:</h3>
+<code>{ natural: "January 10, 2015", unix: "1420848000" }</code>
+    </div>
+    </div>
+  </body>

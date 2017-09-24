@@ -29,6 +29,10 @@ function naturalToUnix(natural) {
     return (new Date(naturalDate)).getTime() / 1000
 }
 
+function timeType() {
+
+}
+
 module.exports = {
     naturalToUnix,
     unixToNatural
