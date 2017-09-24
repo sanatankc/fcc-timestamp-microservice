@@ -33,6 +33,6 @@ app.get('/:time', (req, res) => {
     }
 })
 
-app.listen(4000 || process.env.PORT)
-console.log(`listening on port ${4000 || process.env.PORT} ...`)
+app.listen(process.env.PORT || 4000)
+console.log(`listening on port ${process.env.PORT || 4000} ...`)
 
